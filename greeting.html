@@ -1,0 +1,14 @@
+<html>
+	<body ng-app>
+		<div ng-controller="GreetingController">
+			<input ng-model="name" type="text">
+			{{ getName()}}
+			<br/>
+			<button ng-click="clear()">
+				clear
+			</button>
+		</div>
+		<script src="static/js/lib/angular.min.js"></script>
+		<script src="static/js/greeting.js"></script>
+	</body>
+</html>

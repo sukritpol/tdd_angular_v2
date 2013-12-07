@@ -1,0 +1,14 @@
+<html>
+	<body ng-app>
+		
+			<form ng-submit="formClear()" ng-controller="GreetingController">
+				<input ng-model="name" type="text">
+				{{ getName()}}
+				<br/>
+				<input type="submit" id="submit" value="clear" />
+			</form>
+		
+		<script src="static/js/lib/angular.min.js"></script>
+		<script src="static/js/greeting.js"></script>
+	</body>
+</html>
